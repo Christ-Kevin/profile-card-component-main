@@ -42,7 +42,7 @@ body {
 
     margin: calc(105px + 50vh) auto calc(85px + 50vh) auto;
     padding: 0;
-    width: 90%;
+    width: calc(280px + 10vw);
 }
 
 body > div {
@@ -161,7 +161,7 @@ footer a {
 
 @media (min-width: 540px) {
     body {
-        width: 35%;
+        width: 44%;
         max-width: 380px;
     }
 
