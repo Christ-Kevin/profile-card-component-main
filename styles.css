@@ -1,8 +1,3 @@
-/* 
-
-- Font size (name and stats): 18px
-
-*/
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 :root {
@@ -25,7 +20,6 @@
 html {
     /* size */
     box-sizing: border-box;
-    font-size: 1.125rem;
 
     background: url(images/bg-pattern-top.svg) left top no-repeat, url(images/bg-pattern-bottom.svg) right bottom repeat;
     background-color: var(--dark-cyan);
@@ -39,10 +33,11 @@ body {
     font-weight: 400;
     /* min-height is not usefull in this project */
     max-height: 80vh;
+    font-size: 15px;
 
     margin: calc(105px + 50vh) auto calc(85px + 50vh) auto;
     padding: 0;
-    width: calc(280px + 10vw);
+    width: 320px;
 }
 
 body > div {
@@ -66,8 +61,6 @@ span:first-of-type {
     font-weight: 700;
     margin: 0;
 }
-
-
 
 hr {
     margin-top: 0;
@@ -157,12 +150,4 @@ footer {
 
 footer a {
     color: var(--footer);
-}
-
-@media (min-width: 540px) {
-    body {
-        width: 44%;
-        max-width: 380px;
-    }
-
 }
